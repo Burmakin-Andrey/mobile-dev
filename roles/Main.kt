@@ -1,8 +1,6 @@
 import java.io.FileInputStream
 import java.util.*
 
-//Что-то я наколхозил, думаю можно было сделать проще через регулярные, но об этом я только потом подумал)
-
 fun check(arrI: String, arrText: String, index: String): Boolean {
     if ( arrText.indexOf(":") > 0 &&
         arrI.indexOf(index) > 0 &&
