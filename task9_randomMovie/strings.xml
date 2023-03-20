@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="pressButton">Нажми на кнопку</string>
+    <string name="newMovie">Фильм</string>
+    <string name="Update">Сброс</string>
+    <string-array name="movies">
+        <item>Интерстеллар</item>
+        <item>Шрек</item>
+        <item>Шрек навсегда</item>
+        <item>Шрек 2</item>
+        <item>Бойцовский клуб</item>
+    </string-array>
+</resources>
