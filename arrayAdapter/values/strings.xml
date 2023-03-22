@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">arrayAd</string>
+    <string name="type_name_and_surname">Type name and surname</string>
+
+    <string-array name="names">
+        <item>Daniel</item>
+        <item>Michele</item>
+        <item>Maxim</item>
+        <item>John</item>
+        <item>Alex</item>
+    </string-array>
+
+    <string-array name="surnames">
+        <item>Witkovski</item>
+        <item>Musk</item>
+        <item>Obama</item>
+        <item>Ovalny</item>
+        <item>Djugashvili</item>
+    </string-array>
+</resources>
