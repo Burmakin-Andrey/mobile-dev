@@ -1,15 +1,23 @@
-package com.example.arrayad
+package com.example.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
+import android.app.AlertDialog
 import android.os.Bundle
 import android.widget.ArrayAdapter
-import androidx.appcompat.app.AlertDialog
-import com.example.arrayad.databinding.ActivityMainBinding
-import com.example.arrayad.databinding.DialogAddPersonBinding
-import java.util.*
-import kotlin.collections.ArrayList
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
+import com.example.myapplication.databinding.ActivityMainBinding
+import com.example.myapplication.databinding.DialogAddPersonBinding
+import com.example.myapplication.ui.theme.MyApplicationTheme
+import java.util.Random
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ComponentActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: ArrayAdapter<String>
